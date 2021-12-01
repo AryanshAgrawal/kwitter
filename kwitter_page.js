@@ -1,5 +1,14 @@
-//YOUR FIRE BASE LINKS
-
+const firebaseConfig = {
+  apiKey: "AIzaSyBYQBWbUHJc3oJ8ss_50gyz1eK52pfHM5s",
+  authDomain: "kerala-evu9.firebaseapp.com",
+  databaseURL: "https://kerala-evu9-default-rtdb.firebaseio.com",
+  projectId: "kerala-evu9",
+  storageBucket: "kerala-evu9.appspot.com",
+  messagingSenderId: "691151970719",
+  appId: "1:691151970719:web:7297f46de878baa3a39daa"
+};
+ // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 	user_name = localStorage.getItem("user_name");
 	room_name = localStorage.getItem("room_name");
 
